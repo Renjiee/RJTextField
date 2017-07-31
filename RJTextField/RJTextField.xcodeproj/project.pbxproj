@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C51F9791F2AD62200565B41 /* RJTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C51F9781F2AD62200565B41 /* RJTextField.m */; };
+		5C6949421F29DB9400AC89E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6949411F29DB9400AC89E0 /* main.m */; };
+		5C6949451F29DB9400AC89E0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6949441F29DB9400AC89E0 /* AppDelegate.m */; };
+		5C6949481F29DB9400AC89E0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6949471F29DB9400AC89E0 /* ViewController.m */; };
+		5C69494B1F29DB9400AC89E0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C6949491F29DB9400AC89E0 /* Main.storyboard */; };
+		5C69494D1F29DB9400AC89E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C69494C1F29DB9400AC89E0 /* Assets.xcassets */; };
+		5C6949501F29DB9400AC89E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5C69494E1F29DB9400AC89E0 /* LaunchScreen.storyboard */; };
+		5C69495B1F29DB9500AC89E0 /* RJTextFieldTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C69495A1F29DB9500AC89E0 /* RJTextFieldTests.m */; };
+		5C6949661F29DB9500AC89E0 /* RJTextFieldUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6949651F29DB9500AC89E0 /* RJTextFieldUITests.m */; };
+		BAABAFB49D952D33B49F6A17 /* libPods-RJTextField.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B8CA47841D432FFFCBCFD225 /* libPods-RJTextField.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C6949571F29DB9500AC89E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C6949351F29DB9400AC89E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C69493C1F29DB9400AC89E0;
+			remoteInfo = RJTextField;
+		};
+		5C6949621F29DB9500AC89E0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C6949351F29DB9400AC89E0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C69493C1F29DB9400AC89E0;
+			remoteInfo = RJTextField;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3038EFE00EB7011779A2D58A /* Pods-RJTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJTextField.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RJTextField/Pods-RJTextField.debug.xcconfig"; sourceTree = "<group>"; };
+		489DA4AA582FD4CFF03133BF /* Pods-RJTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RJTextField.release.xcconfig"; path = "Pods/Target Support Files/Pods-RJTextField/Pods-RJTextField.release.xcconfig"; sourceTree = "<group>"; };
+		5C51F9771F2AD62200565B41 /* RJTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RJTextField.h; sourceTree = "<group>"; };
+		5C51F9781F2AD62200565B41 /* RJTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RJTextField.m; sourceTree = "<group>"; };
+		5C69493D1F29DB9400AC89E0 /* RJTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RJTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6949411F29DB9400AC89E0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C6949431F29DB9400AC89E0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5C6949441F29DB9400AC89E0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5C6949461F29DB9400AC89E0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		5C6949471F29DB9400AC89E0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		5C69494A1F29DB9400AC89E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5C69494C1F29DB9400AC89E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5C69494F1F29DB9400AC89E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5C6949511F29DB9400AC89E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6949561F29DB9500AC89E0 /* RJTextFieldTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RJTextFieldTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C69495A1F29DB9500AC89E0 /* RJTextFieldTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJTextFieldTests.m; sourceTree = "<group>"; };
+		5C69495C1F29DB9500AC89E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6949611F29DB9500AC89E0 /* RJTextFieldUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RJTextFieldUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C6949651F29DB9500AC89E0 /* RJTextFieldUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RJTextFieldUITests.m; sourceTree = "<group>"; };
+		5C6949671F29DB9500AC89E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C6949731F29DBF200AC89E0 /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
+		B8CA47841D432FFFCBCFD225 /* libPods-RJTextField.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RJTextField.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C69493A1F29DB9400AC89E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAABAFB49D952D33B49F6A17 /* libPods-RJTextField.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6949531F29DB9500AC89E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C69495E1F29DB9500AC89E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C6949341F29DB9400AC89E0 = {
+			isa = PBXGroup;
+			children = (
+				5C69493F1F29DB9400AC89E0 /* RJTextField */,
+				5C6949591F29DB9500AC89E0 /* RJTextFieldTests */,
+				5C6949641F29DB9500AC89E0 /* RJTextFieldUITests */,
+				5C69493E1F29DB9400AC89E0 /* Products */,
+				63E143201C6F7FABE86B62D9 /* Pods */,
+				ACD2C6B5AA37C9BA12576E7B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5C69493E1F29DB9400AC89E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C69493D1F29DB9400AC89E0 /* RJTextField.app */,
+				5C6949561F29DB9500AC89E0 /* RJTextFieldTests.xctest */,
+				5C6949611F29DB9500AC89E0 /* RJTextFieldUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C69493F1F29DB9400AC89E0 /* RJTextField */ = {
+			isa = PBXGroup;
+			children = (
+				5C6949431F29DB9400AC89E0 /* AppDelegate.h */,
+				5C6949441F29DB9400AC89E0 /* AppDelegate.m */,
+				5C6949461F29DB9400AC89E0 /* ViewController.h */,
+				5C6949471F29DB9400AC89E0 /* ViewController.m */,
+				5C51F9771F2AD62200565B41 /* RJTextField.h */,
+				5C51F9781F2AD62200565B41 /* RJTextField.m */,
+				5C6949731F29DBF200AC89E0 /* Prefix.pch */,
+				5C6949491F29DB9400AC89E0 /* Main.storyboard */,
+				5C69494C1F29DB9400AC89E0 /* Assets.xcassets */,
+				5C69494E1F29DB9400AC89E0 /* LaunchScreen.storyboard */,
+				5C6949511F29DB9400AC89E0 /* Info.plist */,
+				5C6949401F29DB9400AC89E0 /* Supporting Files */,
+			);
+			path = RJTextField;
+			sourceTree = "<group>";
+		};
+		5C6949401F29DB9400AC89E0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C6949411F29DB9400AC89E0 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C6949591F29DB9500AC89E0 /* RJTextFieldTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C69495A1F29DB9500AC89E0 /* RJTextFieldTests.m */,
+				5C69495C1F29DB9500AC89E0 /* Info.plist */,
+			);
+			path = RJTextFieldTests;
+			sourceTree = "<group>";
+		};
+		5C6949641F29DB9500AC89E0 /* RJTextFieldUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5C6949651F29DB9500AC89E0 /* RJTextFieldUITests.m */,
+				5C6949671F29DB9500AC89E0 /* Info.plist */,
+			);
+			path = RJTextFieldUITests;
+			sourceTree = "<group>";
+		};
+		63E143201C6F7FABE86B62D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3038EFE00EB7011779A2D58A /* Pods-RJTextField.debug.xcconfig */,
+				489DA4AA582FD4CFF03133BF /* Pods-RJTextField.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ACD2C6B5AA37C9BA12576E7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B8CA47841D432FFFCBCFD225 /* libPods-RJTextField.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C69493C1F29DB9400AC89E0 /* RJTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C69496A1F29DB9500AC89E0 /* Build configuration list for PBXNativeTarget "RJTextField" */;
+			buildPhases = (
+				01517B4695BABF5364F1ADF5 /* [CP] Check Pods Manifest.lock */,
+				5C6949391F29DB9400AC89E0 /* Sources */,
+				5C69493A1F29DB9400AC89E0 /* Frameworks */,
+				5C69493B1F29DB9400AC89E0 /* Resources */,
+				0C7D350D236857C9363ED50C /* [CP] Embed Pods Frameworks */,
+				E909E62132EF6F976CC5D23E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RJTextField;
+			productName = RJTextField;
+			productReference = 5C69493D1F29DB9400AC89E0 /* RJTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C6949551F29DB9500AC89E0 /* RJTextFieldTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C69496D1F29DB9500AC89E0 /* Build configuration list for PBXNativeTarget "RJTextFieldTests" */;
+			buildPhases = (
+				5C6949521F29DB9500AC89E0 /* Sources */,
+				5C6949531F29DB9500AC89E0 /* Frameworks */,
+				5C6949541F29DB9500AC89E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C6949581F29DB9500AC89E0 /* PBXTargetDependency */,
+			);
+			name = RJTextFieldTests;
+			productName = RJTextFieldTests;
+			productReference = 5C6949561F29DB9500AC89E0 /* RJTextFieldTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5C6949601F29DB9500AC89E0 /* RJTextFieldUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C6949701F29DB9500AC89E0 /* Build configuration list for PBXNativeTarget "RJTextFieldUITests" */;
+			buildPhases = (
+				5C69495D1F29DB9500AC89E0 /* Sources */,
+				5C69495E1F29DB9500AC89E0 /* Frameworks */,
+				5C69495F1F29DB9500AC89E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C6949631F29DB9500AC89E0 /* PBXTargetDependency */,
+			);
+			name = RJTextFieldUITests;
+			productName = RJTextFieldUITests;
+			productReference = 5C6949611F29DB9500AC89E0 /* RJTextFieldUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C6949351F29DB9400AC89E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = RenJiee;
+				TargetAttributes = {
+					5C69493C1F29DB9400AC89E0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6NSCZPVHD4;
+						ProvisioningStyle = Automatic;
+					};
+					5C6949551F29DB9500AC89E0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6NSCZPVHD4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C69493C1F29DB9400AC89E0;
+					};
+					5C6949601F29DB9500AC89E0 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6NSCZPVHD4;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 5C69493C1F29DB9400AC89E0;
+					};
+				};
+			};
+			buildConfigurationList = 5C6949381F29DB9400AC89E0 /* Build configuration list for PBXProject "RJTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5C6949341F29DB9400AC89E0;
+			productRefGroup = 5C69493E1F29DB9400AC89E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C69493C1F29DB9400AC89E0 /* RJTextField */,
+				5C6949551F29DB9500AC89E0 /* RJTextFieldTests */,
+				5C6949601F29DB9500AC89E0 /* RJTextFieldUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C69493B1F29DB9400AC89E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6949501F29DB9400AC89E0 /* LaunchScreen.storyboard in Resources */,
+				5C69494D1F29DB9400AC89E0 /* Assets.xcassets in Resources */,
+				5C69494B1F29DB9400AC89E0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6949541F29DB9500AC89E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C69495F1F29DB9500AC89E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01517B4695BABF5364F1ADF5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		0C7D350D236857C9363ED50C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RJTextField/Pods-RJTextField-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E909E62132EF6F976CC5D23E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RJTextField/Pods-RJTextField-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C6949391F29DB9400AC89E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6949481F29DB9400AC89E0 /* ViewController.m in Sources */,
+				5C51F9791F2AD62200565B41 /* RJTextField.m in Sources */,
+				5C6949451F29DB9400AC89E0 /* AppDelegate.m in Sources */,
+				5C6949421F29DB9400AC89E0 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C6949521F29DB9500AC89E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C69495B1F29DB9500AC89E0 /* RJTextFieldTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C69495D1F29DB9500AC89E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C6949661F29DB9500AC89E0 /* RJTextFieldUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C6949581F29DB9500AC89E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C69493C1F29DB9400AC89E0 /* RJTextField */;
+			targetProxy = 5C6949571F29DB9500AC89E0 /* PBXContainerItemProxy */;
+		};
+		5C6949631F29DB9500AC89E0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C69493C1F29DB9400AC89E0 /* RJTextField */;
+			targetProxy = 5C6949621F29DB9500AC89E0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C6949491F29DB9400AC89E0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C69494A1F29DB9400AC89E0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5C69494E1F29DB9400AC89E0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C69494F1F29DB9400AC89E0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C6949681F29DB9500AC89E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C6949691F29DB9500AC89E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C69496B1F29DB9500AC89E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3038EFE00EB7011779A2D58A /* Pods-RJTextField.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6NSCZPVHD4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RJTextField/Prefix.pch";
+				INFOPLIST_FILE = RJTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RenJiee.Zhang.RJTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		5C69496C1F29DB9500AC89E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 489DA4AA582FD4CFF03133BF /* Pods-RJTextField.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6NSCZPVHD4;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/RJTextField/Prefix.pch";
+				INFOPLIST_FILE = RJTextField/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RenJiee.Zhang.RJTextField;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5C69496E1F29DB9500AC89E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6NSCZPVHD4;
+				INFOPLIST_FILE = RJTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RenJiee.Zhang.RJTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RJTextField.app/RJTextField";
+			};
+			name = Debug;
+		};
+		5C69496F1F29DB9500AC89E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 6NSCZPVHD4;
+				INFOPLIST_FILE = RJTextFieldTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RenJiee.Zhang.RJTextFieldTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RJTextField.app/RJTextField";
+			};
+			name = Release;
+		};
+		5C6949711F29DB9500AC89E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6NSCZPVHD4;
+				INFOPLIST_FILE = RJTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RenJiee.Zhang.RJTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RJTextField;
+			};
+			name = Debug;
+		};
+		5C6949721F29DB9500AC89E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = 6NSCZPVHD4;
+				INFOPLIST_FILE = RJTextFieldUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.RenJiee.Zhang.RJTextFieldUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = RJTextField;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C6949381F29DB9400AC89E0 /* Build configuration list for PBXProject "RJTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6949681F29DB9500AC89E0 /* Debug */,
+				5C6949691F29DB9500AC89E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C69496A1F29DB9500AC89E0 /* Build configuration list for PBXNativeTarget "RJTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C69496B1F29DB9500AC89E0 /* Debug */,
+				5C69496C1F29DB9500AC89E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C69496D1F29DB9500AC89E0 /* Build configuration list for PBXNativeTarget "RJTextFieldTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C69496E1F29DB9500AC89E0 /* Debug */,
+				5C69496F1F29DB9500AC89E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C6949701F29DB9500AC89E0 /* Build configuration list for PBXNativeTarget "RJTextFieldUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C6949711F29DB9500AC89E0 /* Debug */,
+				5C6949721F29DB9500AC89E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C6949351F29DB9400AC89E0 /* Project object */;
+}

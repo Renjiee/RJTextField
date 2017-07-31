@@ -1,0 +1,29 @@
+//
+//  Prefix.pch
+//  RJTextField
+//
+//  Created by ChangRJey on 2017/7/27.
+//  Copyright © 2017年 RenJiee. All rights reserved.
+//
+
+#ifndef Prefix_pch
+#define Prefix_pch
+
+/** 屏幕的SIZE */
+#define SCREEN_SIZE [[UIScreen mainScreen] bounds].size
+/** define:屏幕的宽高比 */
+#define CURRENT_SIZE(_size) _size / 375.0 * SCREEN_SIZE.width
+/**
+ *define:颜色设置的宏定义
+ *prame: _r -- RGB的红
+ *parma: _g -- RGB的绿
+ *parma: _g -- RGB的蓝
+ *parma: _alpha -- RGB的透明度
+ */
+#define SELECT_COLOR(_r,_g,_b,_alpha) [UIColor colorWithRed:_r / 255.0 green:_g / 255.0 blue:_b / 255.0 alpha:_alpha]
+/** 弱引用 */
+#define WEAKSELF __weak typeof(self) weakSelf = self;
+
+#import <Masonry.h>
+
+#endif /* Prefix_pch */
